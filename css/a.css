@@ -1,0 +1,114 @@
+<style>
+		html, header, body, h1, h2, img, p, ul, li, section footer{
+			margin:0;
+			max-width: 100%
+		}
+		html{
+			scroll-behavior: smooth;
+			padding: 0;
+		}
+		header{
+				width: 800px; 
+				margin: auto;
+		}
+		section{
+				width: 800px;
+				margin: auto;
+		}
+		footer{
+				width: 800px;
+				margin: auto;
+		}
+		h1{	
+			display: inline-block;
+			color: white;
+			font-size: 2.5em;
+			font-weight: 600;
+			margin-left: 250px;
+			word-spacing: -1px; 
+			letter-spacing: -1px;
+		}
+		h2{font-size: 1.8em;
+			font-weight: 600;
+			line-height: 35px;
+			word-spacing: -1px; 
+			letter-spacing: -1px;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size: 1.5em;
+			font-weight: 500
+			line-height: 
+		}
+		ul{
+			display: block;
+			padding-left: 0;
+			
+		}
+
+		li{
+			display: block;
+			text-align: right;
+			height: 50px;
+		}
+		nav{
+			text-align: right;
+			display:block;
+		}
+		nav a{
+			display: inline-block;
+			font-size: 1.2em;
+			color: #000000;
+			text-decoration: none;
+			width: 100%
+		}
+		nav a:hover{
+			display: inline-block;
+			color: gray;
+			transition: all .09s;
+		}
+		section a{
+			display: block;
+			overflow: hidden;
+			width: 1500px;
+		}
+		section a:hover{
+			display: block;
+			width: 500px;
+			transition: all 3s
+		}
+		a{
+			display: inline-block;
+			width: 100%
+		}
+		a:hover{
+			display: inline-block;
+			
+			transition: all .09s;
+		}
+
+		#nav{margin:0; padding:0; list-style:none;display:inline; } 
+		#nav li {display:inline;}
+		#nav, #toggle {display:none;} 
+		#toggle:checked + #nav{display: inline;}
+		.sticky {
+			position: -webkit-sticky; /* 사파리 브라우저 지원 */position: sticky;top: 0px;
+		}
+		.row{
+			display: flex;
+			margin: auto;
+		}
+		.col-1{
+			width: 50%;	
+		}
+		.col-2{
+			width: 35%;	
+		}
+		.col-3{
+			width: 65%;
+		}
+		.absol1{
+			position: absolute; 
+			top: 50px; right:50px;}
+
+</style> 
